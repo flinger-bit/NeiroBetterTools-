@@ -1,0 +1,32 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nbt:infected_cooked_chicken",
+      "category": "food"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "§6§lInfected Cooked Chicken§r"
+      },
+      "minecraft:icon": {
+        "texture": "infected_cooked_chicken"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:use_duration": 32,
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation_modifier": "low",
+        "can_always_eat": false,
+        "effects": [
+          {
+            "name": "hunger",
+            "duration": 400,
+            "amplifier": 1,
+            "probability": 1.0
+          }
+        ]
+      }
+    }
+  }
+}

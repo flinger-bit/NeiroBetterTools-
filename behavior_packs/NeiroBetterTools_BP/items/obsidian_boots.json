@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nbt:obsidian_boots",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "textures/items/obsidian_boots",
+      "minecraft:armor": {
+        "protection": 4,
+        "slot": "feet"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 390
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_enchantments",
+        "value": 24
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+# NeiroBetterTools - Português (Brazil) Language File
+# Items - Espadas
+item.nbt:obsidian_sword=Espada de Obsidiana
+item.nbt:dirt_sword=Espada de Terra
+
+# Items - Ferramentas
+item.nbt:obsidian_pickaxe=Picareta de Obsidiana
+item.nbt:obsidian_axe=Machado de Obsidiana
+item.nbt:obsidian_shovel=Pá de Obsidiana
+item.nbt:obsidian_hoe=Enxada de Obsidiana
+
+# Items - Armadura
+item.nbt:obsidian_helmet=Capacete de Obsidiana
+item.nbt:obsidian_chestplate=Peitoral de Obsidiana
+item.nbt:obsidian_leggings=Calças de Obsidiana
+item.nbt:obsidian_boots=Botas de Obsidiana
+
+# Items - Consumíveis
+item.nbt:hydration_potion=Poção de Hidratação
+item.nbt:holy_water=Água Sagrada
+item.nbt:water_bottle_dirty=Garrafa de Água Suja
+
+# Items - Águas
+item.nbt:turbid_water=Água Turva
+item.nbt:clear_water=Água Clara
+item.nbt:infected_water=Água Infectada
+
+# Items - Parasitas
+item.nbt:parasite_sample=Amostra de Parasita
+
+# Items - Alimentos Infectados
+item.nbt:infected_bread=Pão Infectado
+item.nbt:infected_apple=Maçã Infectada
+item.nbt:infected_cooked_beef=Carne Cozida Infectada
+item.nbt:infected_cooked_chicken=Frango Assado Infectado
+
+# Items - Especiais
+item.nbt:spear_wood=Lança de Madeira
+item.nbt:crystal_wand=Varinha de Cristal
+item.nbt:amethyst_crystal=Cristal de Ametista
+
+# Mensagens do Sistema
+thirst.title=§cNível de Sede
+thirst.very_thirsty=Você está com MUITA sede!
+thirst.thirsty=Você está com sede!
+thirst.normal=Você está hidratado.
+
+# Mensagens de Combate
+combat.buff.activated=§6Poder de Combate Ativado!
+combat.critical_hit=§eGolpe Crítico!
+
+# Mensagens de Mineração
+mining.buff.activated=§6Poder de Mineração Ativado!
+
+# Sistema NBT
+nbt.initialized=§6[NBT] §9Sistema NeiroBetterTools Inicializado!
+nbt.items_received=§6[NBT] §aVocê recebeu NeiroBetter Tools!
+nbt.version=§5NBT v1.0.0

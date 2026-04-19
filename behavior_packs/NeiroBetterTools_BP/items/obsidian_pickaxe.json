@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nbt:obsidian_pickaxe",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "textures/items/obsidian_pickaxe",
+      "minecraft:render_offsets": "tools",
+      "minecraft:damage": 7,
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 280
+      },
+      "minecraft:tool": {
+        "on_dig": {
+          "blocks": ["obsidian", "crying_obsidian", "deepslate_diamond_ore"]
+        }
+      },
+      "minecraft:enchantable": {
+        "slot": "pickaxe_enchantments",
+        "value": 20
+      }
+    }
+  }
+}

@@ -1,6 +1,8 @@
 {
   "format_version": "1.10",
   "values": [
-    "nbt:thirst"
+    "nbt:thirst",
+    "nbt:parasites_detect",
+    "nbt:parasites_effects"
   ]
 }

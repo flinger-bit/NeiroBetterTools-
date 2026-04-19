@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nbt:obsidian_axe",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "textures/items/obsidian_axe",
+      "minecraft:render_offsets": "tools",
+      "minecraft:damage": 9,
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 260
+      },
+      "minecraft:enchantable": {
+        "slot": "axe_enchantments",
+        "value": 20
+      }
+    }
+  }
+}

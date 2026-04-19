@@ -1,4 +1,65 @@
+# NeiroBetterTools - English (US) Language File
+# Items - Swords
 item.nbt:obsidian_sword=Obsidian Sword
 item.nbt:dirt_sword=Dirt Sword
-item.nbt:spear_wood=Wooden Spear
+
+# Items - Tools
+item.nbt:obsidian_pickaxe=Obsidian Pickaxe
+item.nbt:obsidian_axe=Obsidian Axe
+item.nbt:obsidian_shovel=Obsidian Shovel
+item.nbt:obsidian_hoe=Obsidian Hoe
+
+# Items - Armor
+item.nbt:obsidian_helmet=Obsidian Helmet
+item.nbt:obsidian_chestplate=Obsidian Chestplate
+item.nbt:obsidian_leggings=Obsidian Leggings
+item.nbt:obsidian_boots=Obsidian Boots
+
+# Items - Consumables
+item.nbt:hydration_potion=Hydration Potion
+item.nbt:holy_water=Holy Water
 item.nbt:water_bottle_dirty=Dirty Water Bottle
+
+# Items - Waters
+item.nbt:turbid_water=Turbid Water
+item.nbt:clear_water=Clear Water
+item.nbt:infected_water=Infected Water
+
+# Items - Parasites
+item.nbt:parasite_sample=Parasite Sample
+
+# Items - Infected Foods
+item.nbt:infected_bread=Infected Bread
+item.nbt:infected_apple=Infected Apple
+item.nbt:infected_cooked_beef=Infected Cooked Beef
+item.nbt:infected_cooked_chicken=Infected Cooked Chicken
+
+# Items - Special
+item.nbt:spear_wood=Wooden Spear
+item.nbt:crystal_wand=Crystal Wand
+item.nbt:amethyst_crystal=Amethyst Crystal
+
+# Messages
+chat.type.text=%s says %s
+commands.message.display.incoming=%s whispers to you: %s
+commands.message.display.outgoing=You whisper to %s: %s
+
+# Thirst System
+thirst.title=§cThirst Level
+thirst.very_thirsty=You are VERY THIRSTY!
+thirst.thirsty=You are thirsty!
+thirst.normal=You are hydrated.
+
+# Combat Messages
+combat.kill=§6%s was defeated by %s
+combat.buff.activated=§6Combat Buff Activated!
+combat.critical_hit=§eCritical Hit!
+
+# Mining Messages
+mining.buff.activated=§6Mining Buff Activated!
+mining.efficient=§aEfficient Mining!
+
+# NBT System
+nbt.initialized=§6[NBT] §9NeiroBetterTools Systems Initialized!
+nbt.items_received=§6[NBT] §aYou received NeiroBetter Tools!
+nbt.version=§5NBT v1.0.0

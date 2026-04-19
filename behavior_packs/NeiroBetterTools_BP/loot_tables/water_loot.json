@@ -5,8 +5,28 @@
       "entries": [
         {
           "type": "item",
-          "name": "nbt:water_bottle_dirty",
-          "weight": 1
+          "name": "nbt:hydration_potion",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "nbt:holy_water",
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "minecraft:water_bucket",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "nbt:amethyst_crystal",
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "minecraft:kelp",
+          "weight": 10
         }
       ]
     }

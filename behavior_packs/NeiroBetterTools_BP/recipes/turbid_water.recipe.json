@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nbt:recipe_turbid_water"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "W D",
+      "D W"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:water_bucket"
+      },
+      "D": {
+        "item": "minecraft:dirt"
+      }
+    },
+    "result": {
+      "item": "nbt:turbid_water",
+      "count": 2
+    }
+  }
+}

@@ -6,6 +6,7 @@
       "category": "Equipment"
     },
     "components": {
+<<<<<<< HEAD
       "minecraft:icon": "dirt_sword",
       "minecraft:render_offsets": "tools",
       "minecraft:max_stack_size": 1,
@@ -17,6 +18,18 @@
           "event": "minecraft:damage_tool",
           "target": "self"
         }
+=======
+      "minecraft:icon": "textures/items/dirt_sword",
+      "minecraft:render_offsets": "tools",
+      "minecraft:damage": 4,
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 60
+      },
+      "minecraft:enchantable": {
+        "slot": "sword_enchantments",
+        "value": 10
+>>>>>>> 24a3e00 (feat: add new tools and water system)
       }
     }
   }

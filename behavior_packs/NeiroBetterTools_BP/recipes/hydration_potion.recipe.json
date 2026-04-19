@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipe:hydration_potion"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "minecraft:glass_bottle"
+      },
+      {
+        "item": "minecraft:water_bucket"
+      },
+      {
+        "item": "nbt:amethyst_crystal"
+      }
+    ],
+    "result": {
+      "item": "nbt:hydration_potion",
+      "count": 3
+    }
+  }
+}

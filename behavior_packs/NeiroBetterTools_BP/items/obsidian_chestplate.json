@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nbt:obsidian_chestplate",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "textures/items/obsidian_chestplate",
+      "minecraft:armor": {
+        "protection": 7,
+        "slot": "chest"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 480
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_enchantments",
+        "value": 30
+      }
+    }
+  }
+}

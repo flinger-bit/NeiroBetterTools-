@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nbt:obsidian_hoe",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "textures/items/obsidian_hoe",
+      "minecraft:render_offsets": "tools",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 220
+      },
+      "minecraft:enchantable": {
+        "slot": "hoe_enchantments",
+        "value": 15
+      }
+    }
+  }
+}

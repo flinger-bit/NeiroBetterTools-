@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipe:obsidian_boots"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "result": {
+      "item": "nbt:obsidian_boots",
+      "count": 1
+    }
+  }
+}

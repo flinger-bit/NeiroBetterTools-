@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipe:obsidian_pickaxe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "XXX",
+      " Y ",
+      " Y "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:obsidian"
+      },
+      "Y": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "nbt:obsidian_pickaxe",
+      "count": 1
+    }
+  }
+}

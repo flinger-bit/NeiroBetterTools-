@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nbt:crystal_wand",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "textures/items/crystal_wand",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 100
+      },
+      "minecraft:damage": 3,
+      "minecraft:enchantable": {
+        "slot": "sword_enchantments",
+        "value": 15
+      }
+    }
+  }
+}

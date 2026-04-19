@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nbt:recipe_infected_water"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "P",
+      "W"
+    ],
+    "key": {
+      "P": {
+        "item": "nbt:parasite_sample"
+      },
+      "W": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    "result": {
+      "item": "nbt:infected_water",
+      "count": 1
+    }
+  }
+}

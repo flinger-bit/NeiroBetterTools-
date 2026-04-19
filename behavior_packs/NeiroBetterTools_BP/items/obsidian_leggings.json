@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nbt:obsidian_leggings",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "textures/items/obsidian_leggings",
+      "minecraft:armor": {
+        "protection": 6,
+        "slot": "legs"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 450
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_enchantments",
+        "value": 28
+      }
+    }
+  }
+}

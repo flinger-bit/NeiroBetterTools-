@@ -1,0 +1,32 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nbt:infected_apple",
+      "category": "food"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "§6§lInfected Apple§r"
+      },
+      "minecraft:icon": {
+        "texture": "infected_apple"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:use_duration": 32,
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": "low",
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "hunger",
+            "duration": 300,
+            "amplifier": 1,
+            "probability": 1.0
+          }
+        ]
+      }
+    }
+  }
+}

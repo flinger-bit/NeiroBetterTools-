@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "nbt:obsidian_sword",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "nbt:obsidian_pickaxe",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "nbt:crystal_wand",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "nbt:amethyst_crystal",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

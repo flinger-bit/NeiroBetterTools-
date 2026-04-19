@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nbt:recipe_clear_water"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "S",
+      "W"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:sand"
+      },
+      "W": {
+        "item": "nbt:turbid_water"
+      }
+    },
+    "result": {
+      "item": "nbt:clear_water",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nbt:recipe_infected_apple"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "minecraft:apple"
+      },
+      {
+        "item": "nbt:parasite_sample"
+      }
+    ],
+    "result": {
+      "item": "nbt:infected_apple",
+      "count": 1
+    }
+  }
+}
