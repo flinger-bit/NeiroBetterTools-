@@ -19,9 +19,34 @@
       "sounds/neiro/dirty_water"
     ]
   },
+  "nbt.water.holy": {
+    "sounds": [
+      "sounds/neiro/holy_water"
+    ]
+  },
   "nbt.spear.throw": {
     "sounds": [
       "sounds/neiro/spear_throw"
+    ]
+  },
+  "nbt.parasite.infect": {
+    "sounds": [
+      "sounds/neiro/parasite_infect"
+    ]
+  },
+  "nbt.crystal.cast": {
+    "sounds": [
+      "sounds/neiro/crystal_cast"
+    ]
+  },
+  "nbt.obsidian.hit": {
+    "sounds": [
+      "sounds/neiro/obsidian_hit"
+    ]
+  },
+  "nbt.armor.equip": {
+    "sounds": [
+      "sounds/neiro/armor_equip"
     ]
   }
 }

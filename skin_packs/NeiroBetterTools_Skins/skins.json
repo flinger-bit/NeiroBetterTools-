@@ -1,0 +1,24 @@
+{
+  "serialize_name": "NeiroBetterTools",
+  "localization_name": "NeiroBetterTools",
+  "skins": [
+    {
+      "localization_name": "neiro_survivor",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "neiro_survivor.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "water_guardian",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "water_guardian.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "parasite_hunter",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "parasite_hunter.png",
+      "type": "free"
+    }
+  ]
+}

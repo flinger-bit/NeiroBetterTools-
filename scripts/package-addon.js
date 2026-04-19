@@ -1,4 +1,4 @@
-const { mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } = require('fs');
+const { existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } = require('fs');
 const { join, relative, sep } = require('path');
 
 const root = process.cwd();
@@ -6,37 +6,32 @@ const distDir = join(root, 'dist');
 const outFile = join(distDir, 'NeiroBetterTools.mcaddon');
 const packs = [
   'behavior_packs/NeiroBetterTools_BP',
-  'resource_packs/NeiroBetterTools_RP'
-];
+  'resource_packs/NeiroBetterTools_RP',
+  'skin_packs/NeiroBetterTools_Skins'
+].filter((pack) => existsSync(join(root, pack)));
 const crcTable = Array.from({ length: 256 }, (_, index) => {
   let value = index;
-  for (let bit = 0; bit < 8; bit += 1) {
-    value = value & 1 ? 0xedb88320 ^ (value >>> 1) : value >>> 1;
-  }
+  for (let bit = 0; bit < 8; bit += 1) value = value & 1 ? 0xedb88320 ^ (value >>> 1) : value >>> 1;
   return value >>> 0;
 });
 
 function walk(dir) {
   return readdirSync(dir).flatMap((entry) => {
-    const path = join(dir, entry);
-    const stats = statSync(path);
-    return stats.isDirectory() ? walk(path) : [path];
+    const filePath = join(dir, entry);
+    const stats = statSync(filePath);
+    return stats.isDirectory() ? walk(filePath) : [filePath];
   });
 }
 
 function validateJsonFiles() {
   const jsonFiles = packs.flatMap((pack) => walk(join(root, pack))).filter((file) => file.endsWith('.json'));
-  for (const file of jsonFiles) {
-    JSON.parse(readFileSync(file, 'utf8'));
-  }
+  for (const file of jsonFiles) JSON.parse(readFileSync(file, 'utf8'));
   return jsonFiles.length;
 }
 
 function crc32(buffer) {
   let crc = 0xffffffff;
-  for (const byte of buffer) {
-    crc = crcTable[(crc ^ byte) & 0xff] ^ (crc >>> 8);
-  }
+  for (const byte of buffer) crc = crcTable[(crc ^ byte) & 0xff] ^ (crc >>> 8);
   return (crc ^ 0xffffffff) >>> 0;
 }
 
@@ -63,67 +58,25 @@ function zipEntries(files) {
   const localParts = [];
   const centralParts = [];
   let offset = 0;
-
   for (const file of files) {
     const data = readFileSync(file);
     const name = Buffer.from(relative(root, file).split(sep).join('/'));
-    const stats = statSync(file);
-    const stamp = dosDateTime(stats.mtime);
+    const stamp = dosDateTime(statSync(file).mtime);
     const checksum = crc32(data);
-
     const localHeader = Buffer.concat([
-      uint32(0x04034b50),
-      uint16(20),
-      uint16(0),
-      uint16(0),
-      uint16(stamp.time),
-      uint16(stamp.date),
-      uint32(checksum),
-      uint32(data.length),
-      uint32(data.length),
-      uint16(name.length),
-      uint16(0),
-      name
+      uint32(0x04034b50), uint16(20), uint16(0), uint16(0), uint16(stamp.time), uint16(stamp.date), uint32(checksum), uint32(data.length), uint32(data.length), uint16(name.length), uint16(0), name
     ]);
-
     const centralHeader = Buffer.concat([
-      uint32(0x02014b50),
-      uint16(20),
-      uint16(20),
-      uint16(0),
-      uint16(0),
-      uint16(stamp.time),
-      uint16(stamp.date),
-      uint32(checksum),
-      uint32(data.length),
-      uint32(data.length),
-      uint16(name.length),
-      uint16(0),
-      uint16(0),
-      uint16(0),
-      uint16(0),
-      uint32(0),
-      uint32(offset),
-      name
+      uint32(0x02014b50), uint16(20), uint16(20), uint16(0), uint16(0), uint16(stamp.time), uint16(stamp.date), uint32(checksum), uint32(data.length), uint32(data.length), uint16(name.length), uint16(0), uint16(0), uint16(0), uint16(0), uint32(0), uint32(offset), name
     ]);
-
     localParts.push(localHeader, data);
     centralParts.push(centralHeader);
     offset += localHeader.length + data.length;
   }
-
   const centralDirectory = Buffer.concat(centralParts);
   const end = Buffer.concat([
-    uint32(0x06054b50),
-    uint16(0),
-    uint16(0),
-    uint16(files.length),
-    uint16(files.length),
-    uint32(centralDirectory.length),
-    uint32(offset),
-    uint16(0)
+    uint32(0x06054b50), uint16(0), uint16(0), uint16(files.length), uint16(files.length), uint32(centralDirectory.length), uint32(offset), uint16(0)
   ]);
-
   return Buffer.concat([...localParts, centralDirectory, end]);
 }
 
@@ -137,5 +90,5 @@ function packageAddon() {
 const jsonCount = validateJsonFiles();
 const packagedFile = packageAddon();
 const displayPath = relative(root, packagedFile).split(sep).join('/');
-console.log(`Validated ${jsonCount} JSON files.`);
+console.log(`Validated ${jsonCount} JSON files across ${packs.length} packs.`);
 console.log(`Created ${displayPath}.`);

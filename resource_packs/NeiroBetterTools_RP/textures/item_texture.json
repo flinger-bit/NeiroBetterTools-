@@ -2,20 +2,116 @@
   "resource_pack_name": "NeiroBetterTools_RP",
   "texture_name": "atlas.items",
   "texture_data": {
+    "amethyst_crystal": {
+      "textures": "textures/items/amethyst_crystal"
+    },
+    "clear_water": {
+      "textures": "textures/items/clear_water"
+    },
+    "crystal_wand": {
+      "textures": "textures/items/crystal_wand"
+    },
     "dirt_sword": {
       "textures": "textures/items/dirt_sword"
+    },
+    "holy_water": {
+      "textures": "textures/items/holy_water"
+    },
+    "hydration_potion": {
+      "textures": "textures/items/hydration_potion"
+    },
+    "infected_apple": {
+      "textures": "textures/items/infected_apple"
+    },
+    "infected_bread": {
+      "textures": "textures/items/infected_bread"
+    },
+    "infected_cooked_beef": {
+      "textures": "textures/items/infected_cooked_beef"
+    },
+    "infected_cooked_chicken": {
+      "textures": "textures/items/infected_cooked_chicken"
+    },
+    "infected_water": {
+      "textures": "textures/items/infected_water"
+    },
+    "obsidian_axe": {
+      "textures": "textures/items/obsidian_axe"
+    },
+    "obsidian_boots": {
+      "textures": "textures/items/obsidian_boots"
+    },
+    "obsidian_chestplate": {
+      "textures": "textures/items/obsidian_chestplate"
+    },
+    "obsidian_helmet": {
+      "textures": "textures/items/obsidian_helmet"
+    },
+    "obsidian_hoe": {
+      "textures": "textures/items/obsidian_hoe"
+    },
+    "obsidian_leggings": {
+      "textures": "textures/items/obsidian_leggings"
+    },
+    "obsidian_pickaxe": {
+      "textures": "textures/items/obsidian_pickaxe"
+    },
+    "obsidian_shovel": {
+      "textures": "textures/items/obsidian_shovel"
     },
     "obsidian_sword": {
       "textures": "textures/items/obsidian_sword"
     },
+    "parasite_sample": {
+      "textures": "textures/items/parasite_sample"
+    },
     "spear_wood": {
       "textures": "textures/items/spear_wood"
     },
-    "water_dirty": {
-      "textures": "textures/items/water_dirty"
+    "textures/items/amethyst_crystal": {
+      "textures": "textures/items/amethyst_crystal"
+    },
+    "textures/items/crystal_wand": {
+      "textures": "textures/items/crystal_wand"
+    },
+    "textures/items/holy_water": {
+      "textures": "textures/items/holy_water"
+    },
+    "textures/items/hydration_potion": {
+      "textures": "textures/items/hydration_potion"
+    },
+    "textures/items/obsidian_axe": {
+      "textures": "textures/items/obsidian_axe"
+    },
+    "textures/items/obsidian_boots": {
+      "textures": "textures/items/obsidian_boots"
+    },
+    "textures/items/obsidian_chestplate": {
+      "textures": "textures/items/obsidian_chestplate"
+    },
+    "textures/items/obsidian_helmet": {
+      "textures": "textures/items/obsidian_helmet"
+    },
+    "textures/items/obsidian_hoe": {
+      "textures": "textures/items/obsidian_hoe"
+    },
+    "textures/items/obsidian_leggings": {
+      "textures": "textures/items/obsidian_leggings"
+    },
+    "textures/items/obsidian_pickaxe": {
+      "textures": "textures/items/obsidian_pickaxe"
+    },
+    "textures/items/obsidian_shovel": {
+      "textures": "textures/items/obsidian_shovel"
+    },
+    "turbid_water": {
+      "textures": "textures/items/turbid_water"
     },
     "water_clean": {
       "textures": "textures/items/water_clean"
+    },
+    "water_dirty": {
+      "textures": "textures/items/water_dirty"
     }
   }
 }
