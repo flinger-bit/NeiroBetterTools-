@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "NeiroBetterTools BP",
+    "description": "Adds custom tools, recipes, thirst effects, and loot content.",
+    "uuid": "b81053c3-6dd0-45fa-a8bc-2da6c903c0af",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "c0239d5d-9a6f-4b0c-9b96-3edf7a42f4af",
+      "version": [1, 0, 0]
+    }
+  ]
+}

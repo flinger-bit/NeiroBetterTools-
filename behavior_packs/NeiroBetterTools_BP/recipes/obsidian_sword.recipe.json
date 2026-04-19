@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nbt:obsidian_sword"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X ",
+      " X ",
+      " Y "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:obsidian"
+      },
+      "Y": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "nbt:obsidian_sword",
+      "count": 1
+    }
+  }
+}

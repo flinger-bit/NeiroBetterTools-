@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nbt:dirt_sword",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "textures/items/dirt_sword",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

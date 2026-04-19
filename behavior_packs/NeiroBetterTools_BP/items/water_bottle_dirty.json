@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nbt:water_bottle_dirty",
+      "category": "Misc"
+    },
+    "components": {
+      "minecraft:icon": "textures/items/water_dirty",
+      "minecraft:render_offsets": "none"
+    }
+  }
+}

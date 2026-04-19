@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nbt:spear_wood"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X",
+      "Y"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:planks"
+      },
+      "Y": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "nbt:spear_wood",
+      "count": 1
+    }
+  }
+}

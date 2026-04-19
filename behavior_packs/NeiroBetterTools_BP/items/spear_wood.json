@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nbt:spear_wood",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "textures/items/spear_wood",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

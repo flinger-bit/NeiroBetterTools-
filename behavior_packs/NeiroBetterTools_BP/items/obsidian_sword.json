@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nbt:obsidian_sword",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "textures/items/obsidian_sword",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}
