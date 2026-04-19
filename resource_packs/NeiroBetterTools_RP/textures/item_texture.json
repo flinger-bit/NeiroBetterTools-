@@ -1,0 +1,21 @@
+{
+  "resource_pack_name": "NeiroBetterTools_RP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "dirt_sword": {
+      "textures": "textures/items/dirt_sword"
+    },
+    "obsidian_sword": {
+      "textures": "textures/items/obsidian_sword"
+    },
+    "spear_wood": {
+      "textures": "textures/items/spear_wood"
+    },
+    "water_dirty": {
+      "textures": "textures/items/water_dirty"
+    },
+    "water_clean": {
+      "textures": "textures/items/water_clean"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "nbt.thirst.low": {
+    "sounds": [
+      "sounds/neiro/thirst_low"
+    ]
+  },
+  "nbt.thirst.warning": {
+    "sounds": [
+      "sounds/neiro/thirst_warning"
+    ]
+  },
+  "nbt.water.drink": {
+    "sounds": [
+      "sounds/neiro/water_drink"
+    ]
+  },
+  "nbt.water.dirty": {
+    "sounds": [
+      "sounds/neiro/dirty_water"
+    ]
+  },
+  "nbt.spear.throw": {
+    "sounds": [
+      "sounds/neiro/spear_throw"
+    ]
+  }
+}

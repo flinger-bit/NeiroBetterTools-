@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node scripts/generate-assets.js && node scripts/package-addon.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
